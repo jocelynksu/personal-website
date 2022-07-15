@@ -1,0 +1,47 @@
+.interests-pics{
+    height: 40vh;
+    width: 25vw;
+    border-radius: 100px;
+    margin-top: 1%;
+    margin-right: 1.5%;
+    margin-left: 1.5%;
+    margin-bottom: 2%;
+    object-fit: cover;
+}
+
+#interests-header{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 37px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+#interests-page{
+    background-color: azure;
+}
+
+#goback {
+    height: 42px;
+    width: 42px;
+    border-radius: 21px;
+    align-content: right;
+}
+
+#profile-pic:hover{
+    box-shadow: 0px 0px 5px #C2C2C2
+}
+
+#menu {
+    padding: 5px 10px; 
+    display: flex;
+}
+
+.interest-row1{
+    text-align: center;
+    margin-top: 100px;
+}
+
+#spotify:hover{
+    box-shadow: 0px 0px 10px #4b4b4b
+}
+
