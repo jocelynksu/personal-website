@@ -1,0 +1,298 @@
+#education-function{
+    position: absolute;
+width: 30vw;
+max-width: 800px;
+min-width: 240px;
+left: 10%;
+top: 15%;
+
+font-family: 'Source Code Pro', monospace;
+font-style: normal;
+font-weight: 400;
+font-size: 1.3vw;
+line-height: 100%;
+overflow: scroll;
+}
+
+.orange-color{
+    color: #FC7B13;
+}
+
+.blue-color{
+    color: #0B0BFC;
+}
+
+.black-color{
+    color: #000000;
+}
+
+.purple-color{
+    color: #9642B9;
+}
+
+.green-color{
+    color: #04B305;
+}
+
+.arrow-color{
+    color: #880608; 
+    
+}
+
+.red-color{
+    color: #FA1010;
+}
+
+.indent1{
+    text-indent: 50px;
+}
+
+#line-height{
+    line-height: 9px;
+}
+
+.indent2{
+    text-indent: 105px;
+}
+
+.indent3{
+    text-indent: 37%;
+}
+
+.bottom-bar{
+    position: absolute;
+    width: 150%;
+    overflow: hidden;
+    height: 10vh;
+    bottom: 0px;
+    background: #D3D3D3;
+}
+
+.top-bar-py{
+
+position: absolute;
+width: 55%;
+min-width: 200px;
+max-width: 800px;
+overflow: hidden;
+height: 7%;
+margin-top: 0px;
+margin-left: 0px;
+
+background: #D3D3D3;
+}
+
+.top-bar-shell{
+
+    position: absolute;
+    width: 45%;
+    min-width: 200px;
+    max-width: 800px;
+    overflow: hidden;
+    height: 7%;
+    margin-top: 0px;
+    margin-right: 0px;
+    
+    background: #D3D3D3;
+    }
+
+
+
+#py-shell {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    font-size: 1.05vw;
+    top: 2vh;
+    right: 17vw;
+}
+
+#top-python{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    font-size: 1.05vw;
+    top: 2vh;
+    left: 12vw;
+}
+
+
+.icons{
+    align-content: center;
+}
+
+#home-button{
+    position: absolute;
+width: 24px;
+height: 23px;
+left: 14px;
+top: 12px;
+}
+
+#home-button:hover{
+    transform: scale(1.2);
+}
+
+#gmail-button{
+    position: absolute;
+width: 37px;
+height: 37px;
+left: 797px;
+top: 18px;
+}
+
+#gmail-button:hover{
+    transform: scale(1.2);
+}
+
+#github-button{
+    position: absolute;
+width: 33px;
+height: 33px;
+left: 714px;
+top: 20px;
+}
+
+#github-button:hover{
+    transform: scale(1.2);
+}
+
+#linkedin-button{
+    position: absolute;
+width: 33px;
+height: 33px;
+left: 641px;
+top: 20px;
+}
+
+#linkedin-button:hover{
+    transform: scale(1.2);
+}
+
+#skills-function{
+    position: absolute;
+width: 50vw;
+min-width: 240px;
+max-width: 80%;
+left: 10%;
+top: 62%;
+overflow: scroll;
+
+
+font-family: 'Source Code Pro', monospace;
+font-style: normal;
+font-weight: 400;
+font-size: 1.3vw;
+line-height: 130%;
+}
+
+#experience-function{
+    position: absolute;
+width: 40vw;
+max-width: 800px;
+min-width: 240px;
+left: 10%;
+top: 90%;
+
+font-family: 'Source Code Pro', monospace;
+font-style: normal;
+font-weight: 400;
+font-size: 1.3vw;
+line-height: 130%;
+overflow-y: scroll;
+overflow: scroll;
+}
+
+.dropdown{
+    position: absolute;
+    right: 1vw;
+top: 12vh;
+width: 40vw;
+
+}
+
+#code-options{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 100%;
+    width:fit-content;
+}
+
+select{
+    font-family: 'Source Code Pro', monospace;
+    border-radius: 5px;
+}
+
+#education-popup{
+    position:absolute;
+    width:30%;
+    height:100%;
+    right: 5vw;
+    top:25vh;
+    padding:5px;
+    display: none;
+    font-family: 'Source Code Pro', monospace;
+}
+
+#skills-popup{
+    position:absolute;
+    width:30%;
+    height:100%;
+    right: 5vw;
+    top:25vh;
+    padding:5px;
+    display: none;
+    font-family: 'Source Code Pro', monospace;
+}
+
+#experience-popup{
+    position:absolute;
+    width:30%;
+    height:100%;
+    right: 5vw;
+    top:25vh;
+    padding:5px;
+    display: none;
+    font-family: 'Source Code Pro', monospace;
+}
+
+
+@media screen and (min-width:480px) {
+    .leftside {
+        height: 100vh;
+    }
+    
+}
+
+
+.rightside {
+    background: grey;
+}
+
+  
+span.keeptogether {
+    white-space: nowrap;
+}
+
+.container-left {
+    max-width: 100%;
+    width: 55%;
+    float: left;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll !important; 
+    background: white;
+    overflow: scroll;
+    display: flex;
+}
+
+.container-right {
+    max-width: 100%;
+    width: 44.5%;
+    float: right;
+    height: 100vh;
+    
+    background: white;
+    display: flex;
+}
+
+
+
+
