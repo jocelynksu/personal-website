@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Jocelyn Su</title>
+    <link rel="stylesheet" type="text/css" href="hobbiespage.css"/>
+  </head>
+  <body id="background">
+    <div >
+      <a href="homepage.html">
+        <img src="images/home-button.png" id="home-button"/>
+    </a>
+      <a onclick="igalert()">
+          <img src="images/ig.png" class="pfp-buttons" id="ig-button"/>
+      </a>
+      <script>
+        function igalert(){
+          if (confirm("WARNING! This will take you to another site. Do you wish to continue?")){
+            window.location.href="https://www.instagram.com/su.joce/";
+          }
+        }
+      </script>
+      <a onclick="linkedinalert()">
+        <img src="images/linkedin.png" class="pfp-buttons" id="linkedin-button"/>
+    </a>
+    <script>
+      function linkedinalert(){
+        if (confirm("WARNING! This will take you to another site. Do you wish to continue?")){
+          window.location.href="https://www.linkedin.com/in/jocelynksu/";
+        }
+      }
+    </script>
+    <a href=mailto:jsu9@gatech.edu>
+      <img src="images/gmail.png" class="pfp-buttons" id="email-button"/>
+  </a>
+    </div>
+  
+    <div>
+      <a>
+        <h1 id="header-1" class="headers">MEET JOCELYN SU</h1>
+        <p id=text>Click each to learn more!</p>
+      </a>
+    </div>
+    <div class="pictures-main-page-row1">
+        <a href="pets.html">
+          <img src="images/pfp.png" id="main-image" class="main-image"/>
+        </a>
+      
+      <a href = "family.html">
+        <img src="images/family.png" id="fam-image" class="fam-image"/>
+      </a>
+    </div>
+    <div class="pictures-main-page-row2">
+      <a href = "funpics.html">
+        <img src="images/funpics.png" id="funpics-image" class="funpics-image"/>
+      </a>
+      <a href = "interests.html">
+        <img src="images/interests.png" id="interests-image" class="interests-image"/>
+      </a>
+    </div>
+    
+  </body>
+</html>
